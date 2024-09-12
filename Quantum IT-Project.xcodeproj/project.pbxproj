@@ -1,0 +1,723 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		730C94C42C91B86E0063A40B /* Quantum_IT_ProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730C94C32C91B86E0063A40B /* Quantum_IT_ProjectApp.swift */; };
+		730C94CB2C91B8700063A40B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 730C94CA2C91B8700063A40B /* Preview Assets.xcassets */; };
+		730C94D52C91B8700063A40B /* Quantum_IT_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730C94D42C91B8700063A40B /* Quantum_IT_ProjectTests.swift */; };
+		730C94DF2C91B8700063A40B /* Quantum_IT_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730C94DE2C91B8700063A40B /* Quantum_IT_ProjectUITests.swift */; };
+		730C94E12C91B8700063A40B /* Quantum_IT_ProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730C94E02C91B8700063A40B /* Quantum_IT_ProjectUITestsLaunchTests.swift */; };
+		730C94F22C91BA0C0063A40B /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 730C94EE2C91BA0C0063A40B /* Poppins-Medium.ttf */; };
+		730C94F32C91BA0C0063A40B /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 730C94EF2C91BA0C0063A40B /* Poppins-SemiBold.ttf */; };
+		730C94F42C91BA0C0063A40B /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 730C94F02C91BA0C0063A40B /* Poppins-Bold.ttf */; };
+		730C94F52C91BA0C0063A40B /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 730C94F12C91BA0C0063A40B /* Poppins-Regular.ttf */; };
+		730C94FA2C91BBF30063A40B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730C94F92C91BBF30063A40B /* LoginView.swift */; };
+		730C94FD2C91BF010063A40B /* UIExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730C94FC2C91BF010063A40B /* UIExtension.swift */; };
+		730C94FF2C91C3CB0063A40B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 730C94FE2C91C3CB0063A40B /* Assets.xcassets */; };
+		730C95012C91C9E20063A40B /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 730C95002C91C9E20063A40B /* Poppins-Thin.ttf */; };
+		730C95032C91D5D90063A40B /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 730C95022C91D5D90063A40B /* Poppins-ExtraLight.ttf */; };
+		730C95052C91EF570063A40B /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730C95042C91EF570063A40B /* RoundedButton.swift */; };
+		730C95072C920B9F0063A40B /* EmailVeriView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730C95062C920B9F0063A40B /* EmailVeriView.swift */; };
+		730C95092C9218200063A40B /* KeyboardObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730C95082C9218200063A40B /* KeyboardObserver.swift */; };
+		730C950B2C921F650063A40B /* RoundedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730C950A2C921F650063A40B /* RoundedTextField.swift */; };
+		730C950F2C9224260063A40B /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730C950E2C9224260063A40B /* MainViewModel.swift */; };
+		730C95112C92291D0063A40B /* PasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730C95102C92291D0063A40B /* PasswordTextField.swift */; };
+		730C95132C922F870063A40B /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730C95122C922F870063A40B /* NetworkManager.swift */; };
+		730C95152C923C9A0063A40B /* OtpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730C95142C923C9A0063A40B /* OtpView.swift */; };
+		730C95172C92C98C0063A40B /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730C95162C92C98C0063A40B /* SignUpView.swift */; };
+		730C95192C92D4010063A40B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730C95182C92D4010063A40B /* HomeView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		730C94D12C91B8700063A40B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 730C94B82C91B86E0063A40B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 730C94BF2C91B86E0063A40B;
+			remoteInfo = "Quantum IT-Project";
+		};
+		730C94DB2C91B8700063A40B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 730C94B82C91B86E0063A40B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 730C94BF2C91B86E0063A40B;
+			remoteInfo = "Quantum IT-Project";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		730C94C02C91B86E0063A40B /* Quantum IT-Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quantum IT-Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		730C94C32C91B86E0063A40B /* Quantum_IT_ProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quantum_IT_ProjectApp.swift; sourceTree = "<group>"; };
+		730C94CA2C91B8700063A40B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		730C94D02C91B8700063A40B /* Quantum IT-ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Quantum IT-ProjectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		730C94D42C91B8700063A40B /* Quantum_IT_ProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quantum_IT_ProjectTests.swift; sourceTree = "<group>"; };
+		730C94DA2C91B8700063A40B /* Quantum IT-ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Quantum IT-ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		730C94DE2C91B8700063A40B /* Quantum_IT_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quantum_IT_ProjectUITests.swift; sourceTree = "<group>"; };
+		730C94E02C91B8700063A40B /* Quantum_IT_ProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quantum_IT_ProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		730C94EE2C91BA0C0063A40B /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		730C94EF2C91BA0C0063A40B /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		730C94F02C91BA0C0063A40B /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		730C94F12C91BA0C0063A40B /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		730C94F62C91BA740063A40B /* Quantum-IT-Project-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Quantum-IT-Project-Info.plist"; sourceTree = SOURCE_ROOT; };
+		730C94F92C91BBF30063A40B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		730C94FC2C91BF010063A40B /* UIExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtension.swift; sourceTree = "<group>"; };
+		730C94FE2C91C3CB0063A40B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		730C95002C91C9E20063A40B /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		730C95022C91D5D90063A40B /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
+		730C95042C91EF570063A40B /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		730C95062C920B9F0063A40B /* EmailVeriView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailVeriView.swift; sourceTree = "<group>"; };
+		730C95082C9218200063A40B /* KeyboardObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardObserver.swift; sourceTree = "<group>"; };
+		730C950A2C921F650063A40B /* RoundedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedTextField.swift; sourceTree = "<group>"; };
+		730C950E2C9224260063A40B /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		730C95102C92291D0063A40B /* PasswordTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordTextField.swift; sourceTree = "<group>"; };
+		730C95122C922F870063A40B /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		730C95142C923C9A0063A40B /* OtpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpView.swift; sourceTree = "<group>"; };
+		730C95162C92C98C0063A40B /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		730C95182C92D4010063A40B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		730C94BD2C91B86E0063A40B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		730C94CD2C91B8700063A40B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		730C94D72C91B8700063A40B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		730C94B72C91B86E0063A40B = {
+			isa = PBXGroup;
+			children = (
+				730C94C22C91B86E0063A40B /* Quantum IT-Project */,
+				730C94D32C91B8700063A40B /* Quantum IT-ProjectTests */,
+				730C94DD2C91B8700063A40B /* Quantum IT-ProjectUITests */,
+				730C94C12C91B86E0063A40B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		730C94C12C91B86E0063A40B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				730C94C02C91B86E0063A40B /* Quantum IT-Project.app */,
+				730C94D02C91B8700063A40B /* Quantum IT-ProjectTests.xctest */,
+				730C94DA2C91B8700063A40B /* Quantum IT-ProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		730C94C22C91B86E0063A40B /* Quantum IT-Project */ = {
+			isa = PBXGroup;
+			children = (
+				730C950D2C92240E0063A40B /* ViewModel */,
+				730C94FB2C91BEEA0063A40B /* UICommon */,
+				730C94F72C91BBDA0063A40B /* View */,
+				730C94F62C91BA740063A40B /* Quantum-IT-Project-Info.plist */,
+				730C94ED2C91B9DB0063A40B /* Fonts */,
+				730C94C32C91B86E0063A40B /* Quantum_IT_ProjectApp.swift */,
+				730C94FE2C91C3CB0063A40B /* Assets.xcassets */,
+				730C94C92C91B8700063A40B /* Preview Content */,
+			);
+			path = "Quantum IT-Project";
+			sourceTree = "<group>";
+		};
+		730C94C92C91B8700063A40B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				730C94CA2C91B8700063A40B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		730C94D32C91B8700063A40B /* Quantum IT-ProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				730C94D42C91B8700063A40B /* Quantum_IT_ProjectTests.swift */,
+			);
+			path = "Quantum IT-ProjectTests";
+			sourceTree = "<group>";
+		};
+		730C94DD2C91B8700063A40B /* Quantum IT-ProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				730C94DE2C91B8700063A40B /* Quantum_IT_ProjectUITests.swift */,
+				730C94E02C91B8700063A40B /* Quantum_IT_ProjectUITestsLaunchTests.swift */,
+			);
+			path = "Quantum IT-ProjectUITests";
+			sourceTree = "<group>";
+		};
+		730C94ED2C91B9DB0063A40B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				730C95022C91D5D90063A40B /* Poppins-ExtraLight.ttf */,
+				730C95002C91C9E20063A40B /* Poppins-Thin.ttf */,
+				730C94F02C91BA0C0063A40B /* Poppins-Bold.ttf */,
+				730C94EE2C91BA0C0063A40B /* Poppins-Medium.ttf */,
+				730C94F12C91BA0C0063A40B /* Poppins-Regular.ttf */,
+				730C94EF2C91BA0C0063A40B /* Poppins-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		730C94F72C91BBDA0063A40B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				730C94F82C91BBE00063A40B /* Login */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		730C94F82C91BBE00063A40B /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				730C94F92C91BBF30063A40B /* LoginView.swift */,
+				730C95062C920B9F0063A40B /* EmailVeriView.swift */,
+				730C95142C923C9A0063A40B /* OtpView.swift */,
+				730C95162C92C98C0063A40B /* SignUpView.swift */,
+				730C95182C92D4010063A40B /* HomeView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		730C94FB2C91BEEA0063A40B /* UICommon */ = {
+			isa = PBXGroup;
+			children = (
+				730C94FC2C91BF010063A40B /* UIExtension.swift */,
+				730C95042C91EF570063A40B /* RoundedButton.swift */,
+				730C95082C9218200063A40B /* KeyboardObserver.swift */,
+				730C950A2C921F650063A40B /* RoundedTextField.swift */,
+				730C95102C92291D0063A40B /* PasswordTextField.swift */,
+				730C95122C922F870063A40B /* NetworkManager.swift */,
+			);
+			path = UICommon;
+			sourceTree = "<group>";
+		};
+		730C950D2C92240E0063A40B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				730C950E2C9224260063A40B /* MainViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		730C94BF2C91B86E0063A40B /* Quantum IT-Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 730C94E42C91B8700063A40B /* Build configuration list for PBXNativeTarget "Quantum IT-Project" */;
+			buildPhases = (
+				730C94BC2C91B86E0063A40B /* Sources */,
+				730C94BD2C91B86E0063A40B /* Frameworks */,
+				730C94BE2C91B86E0063A40B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Quantum IT-Project";
+			productName = "Quantum IT-Project";
+			productReference = 730C94C02C91B86E0063A40B /* Quantum IT-Project.app */;
+			productType = "com.apple.product-type.application";
+		};
+		730C94CF2C91B8700063A40B /* Quantum IT-ProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 730C94E72C91B8700063A40B /* Build configuration list for PBXNativeTarget "Quantum IT-ProjectTests" */;
+			buildPhases = (
+				730C94CC2C91B8700063A40B /* Sources */,
+				730C94CD2C91B8700063A40B /* Frameworks */,
+				730C94CE2C91B8700063A40B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				730C94D22C91B8700063A40B /* PBXTargetDependency */,
+			);
+			name = "Quantum IT-ProjectTests";
+			productName = "Quantum IT-ProjectTests";
+			productReference = 730C94D02C91B8700063A40B /* Quantum IT-ProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		730C94D92C91B8700063A40B /* Quantum IT-ProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 730C94EA2C91B8700063A40B /* Build configuration list for PBXNativeTarget "Quantum IT-ProjectUITests" */;
+			buildPhases = (
+				730C94D62C91B8700063A40B /* Sources */,
+				730C94D72C91B8700063A40B /* Frameworks */,
+				730C94D82C91B8700063A40B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				730C94DC2C91B8700063A40B /* PBXTargetDependency */,
+			);
+			name = "Quantum IT-ProjectUITests";
+			productName = "Quantum IT-ProjectUITests";
+			productReference = 730C94DA2C91B8700063A40B /* Quantum IT-ProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		730C94B82C91B86E0063A40B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					730C94BF2C91B86E0063A40B = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					730C94CF2C91B8700063A40B = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 730C94BF2C91B86E0063A40B;
+					};
+					730C94D92C91B8700063A40B = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 730C94BF2C91B86E0063A40B;
+					};
+				};
+			};
+			buildConfigurationList = 730C94BB2C91B86E0063A40B /* Build configuration list for PBXProject "Quantum IT-Project" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 730C94B72C91B86E0063A40B;
+			productRefGroup = 730C94C12C91B86E0063A40B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				730C94BF2C91B86E0063A40B /* Quantum IT-Project */,
+				730C94CF2C91B8700063A40B /* Quantum IT-ProjectTests */,
+				730C94D92C91B8700063A40B /* Quantum IT-ProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		730C94BE2C91B86E0063A40B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				730C94F22C91BA0C0063A40B /* Poppins-Medium.ttf in Resources */,
+				730C95012C91C9E20063A40B /* Poppins-Thin.ttf in Resources */,
+				730C94F32C91BA0C0063A40B /* Poppins-SemiBold.ttf in Resources */,
+				730C94F42C91BA0C0063A40B /* Poppins-Bold.ttf in Resources */,
+				730C95032C91D5D90063A40B /* Poppins-ExtraLight.ttf in Resources */,
+				730C94F52C91BA0C0063A40B /* Poppins-Regular.ttf in Resources */,
+				730C94FF2C91C3CB0063A40B /* Assets.xcassets in Resources */,
+				730C94CB2C91B8700063A40B /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		730C94CE2C91B8700063A40B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		730C94D82C91B8700063A40B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		730C94BC2C91B86E0063A40B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				730C94FA2C91BBF30063A40B /* LoginView.swift in Sources */,
+				730C94FD2C91BF010063A40B /* UIExtension.swift in Sources */,
+				730C95192C92D4010063A40B /* HomeView.swift in Sources */,
+				730C95132C922F870063A40B /* NetworkManager.swift in Sources */,
+				730C95112C92291D0063A40B /* PasswordTextField.swift in Sources */,
+				730C95172C92C98C0063A40B /* SignUpView.swift in Sources */,
+				730C94C42C91B86E0063A40B /* Quantum_IT_ProjectApp.swift in Sources */,
+				730C950B2C921F650063A40B /* RoundedTextField.swift in Sources */,
+				730C95152C923C9A0063A40B /* OtpView.swift in Sources */,
+				730C95052C91EF570063A40B /* RoundedButton.swift in Sources */,
+				730C95092C9218200063A40B /* KeyboardObserver.swift in Sources */,
+				730C95072C920B9F0063A40B /* EmailVeriView.swift in Sources */,
+				730C950F2C9224260063A40B /* MainViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		730C94CC2C91B8700063A40B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				730C94D52C91B8700063A40B /* Quantum_IT_ProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		730C94D62C91B8700063A40B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				730C94DF2C91B8700063A40B /* Quantum_IT_ProjectUITests.swift in Sources */,
+				730C94E12C91B8700063A40B /* Quantum_IT_ProjectUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		730C94D22C91B8700063A40B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 730C94BF2C91B86E0063A40B /* Quantum IT-Project */;
+			targetProxy = 730C94D12C91B8700063A40B /* PBXContainerItemProxy */;
+		};
+		730C94DC2C91B8700063A40B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 730C94BF2C91B86E0063A40B /* Quantum IT-Project */;
+			targetProxy = 730C94DB2C91B8700063A40B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		730C94E22C91B8700063A40B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		730C94E32C91B8700063A40B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		730C94E52C91B8700063A40B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Quantum IT-Project/Preview Content\"";
+				DEVELOPMENT_TEAM = 458RNVZ66L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Quantum-IT-Project-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.grocery.Quantum-IT-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		730C94E62C91B8700063A40B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Quantum IT-Project/Preview Content\"";
+				DEVELOPMENT_TEAM = 458RNVZ66L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Quantum-IT-Project-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.grocery.Quantum-IT-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		730C94E82C91B8700063A40B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 458RNVZ66L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.grocery.Quantum-IT-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quantum IT-Project.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Quantum IT-Project";
+			};
+			name = Debug;
+		};
+		730C94E92C91B8700063A40B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 458RNVZ66L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.grocery.Quantum-IT-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quantum IT-Project.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Quantum IT-Project";
+			};
+			name = Release;
+		};
+		730C94EB2C91B8700063A40B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 458RNVZ66L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.grocery.Quantum-IT-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Quantum IT-Project";
+			};
+			name = Debug;
+		};
+		730C94EC2C91B8700063A40B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 458RNVZ66L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.grocery.Quantum-IT-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Quantum IT-Project";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		730C94BB2C91B86E0063A40B /* Build configuration list for PBXProject "Quantum IT-Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				730C94E22C91B8700063A40B /* Debug */,
+				730C94E32C91B8700063A40B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		730C94E42C91B8700063A40B /* Build configuration list for PBXNativeTarget "Quantum IT-Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				730C94E52C91B8700063A40B /* Debug */,
+				730C94E62C91B8700063A40B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		730C94E72C91B8700063A40B /* Build configuration list for PBXNativeTarget "Quantum IT-ProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				730C94E82C91B8700063A40B /* Debug */,
+				730C94E92C91B8700063A40B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		730C94EA2C91B8700063A40B /* Build configuration list for PBXNativeTarget "Quantum IT-ProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				730C94EB2C91B8700063A40B /* Debug */,
+				730C94EC2C91B8700063A40B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 730C94B82C91B86E0063A40B /* Project object */;
+}
